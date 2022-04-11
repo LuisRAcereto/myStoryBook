@@ -36,7 +36,7 @@ Default.args = {
 
 export const WithPinnedTasks = Template.bind({});
 WithPinnedTasks.args = {
-    //Shappint the stories through args composition.
+    //Shapping the stories through args composition.
     // Inherited data coming from the Default story.
     tasks: [
         ...Default.args.tasks.slice(0, 5),
